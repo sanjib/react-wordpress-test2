@@ -8,3 +8,4 @@ Package                 Current  Wanted  Latest  Location
 babel-preset-react-app    3.1.2   3.1.2   9.1.2  oak-js
 
 npm i babel-preset-react-app@9
+npm i braces@3 --save-dev
