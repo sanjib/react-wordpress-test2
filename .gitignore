@@ -1,0 +1,15 @@
+/.idea
+/nbproject
+/wp-admin
+/wp-includes
+/*.php
+/*.txt
+/*.html
+
+/wp-content/*
+
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/oak-wp
+
+/wp-content/themes/oak-wp/js/node_modules

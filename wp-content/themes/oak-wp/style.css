@@ -1,0 +1,61 @@
+/*
+Theme Name: Oak WP
+Theme URI: https://oak.dev
+Author: Oak
+Author URI: https://oak.dev
+Description: Oak Dev WP Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oak-dev
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+:root {
+    --std-margin-len: 20px;
+}
+
+body { margin: 0; }
+
+/* header */
+header {
+    background: lightcoral;
+}
+header logo {
+    padding: var(--std-margin-len);
+    display: block;
+}
+header nav {
+    background: lightcyan;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    list-style: none;
+    display: inline;
+}
+header nav a {
+    padding: 5px;
+    display: inline-block;
+}
+
+/* main */
+main {
+    padding: var(--std-margin-len);
+}
+
+/* footer */
+footer {
+    background: lightgreen;
+    padding: var(--std-margin-len);
+}
+footer nav ul {
+    margin: 0;
+    padding: 0;
+}
+footer nav li {
+    list-style: none;
+    display: inline;
+}
